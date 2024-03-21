@@ -27,5 +27,9 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     },
-    "rules": {}
+    "rules": {},
+    "globals": {
+        "fetch": "readonly",
+        "global": "readonly"
+      }
   }
