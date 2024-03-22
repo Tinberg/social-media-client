@@ -27,7 +27,9 @@
       "ecmaVersion": "latest",
       "sourceType": "module"
     },
-    "rules": {},
+    "rules": {
+        "no-unused-vars": "warn"
+    },
     "globals": {
         "fetch": "readonly",
         "global": "readonly"
